@@ -13,7 +13,7 @@
   # https://devenv.sh/packages/
   packages = with pkgs; [
     git
-    corepack_latest
+    corepack
     nodePackages_latest.localtunnel
     nodePackages_latest.vercel
   ];
